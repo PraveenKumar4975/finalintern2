@@ -7,7 +7,7 @@ export const Navbars = (isOpen,onClose) => {
 
   return (
     <>
-      <div className="flex justify-center">
+      <div className="flex justify-center w-full px-4">
         <nav className="w-[890px] h-[80px] shadow-[0px_0px_15px_8px_#7F7F7F26] bg-white border border-[#FCFCFC] rounded-[122px] px-6 py-4 flex items-center justify-between shadow-sm">
           <div className="flex items-center gap-8 w-[838px] h-[48px]">
             <img src="/logo.png" alt="Logo" className="h-15" />

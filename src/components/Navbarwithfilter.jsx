@@ -6,7 +6,7 @@ import { Job_type } from './Job_type'
 import Location  from './Location'
 export const Navbarwithfilter = () => {
   return (
-    <div><div className='relative w-[1580px] shadow-[0px_0px_15px_10px_#7F7F7F26]'>
+    <div><div className='relative w-full max-w-none shadow-[0px_0px_15px_10px_#7F7F7F26]'>
             <div className='absolute z-50 top-[21px] pl-[355px]'>
                  <Navbars/>
             </div>
